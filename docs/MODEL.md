@@ -44,7 +44,7 @@ $$\eta_{\mathrm{pipe}}=\max(0.75,\;1-0.0025\,d)\qquad\qquad
 \mathrm{COP}_j=\min\left[6,\;\frac{0.5\,(T_{j,\mathrm{hot}}+273.15)}{T_{j,\mathrm{hot}}-53}\right]$$
 
 with $d$ in km. Below 53 °C supply is direct. Above it, each unit of useful heat draws
-$S_j=(1-1/\mathrm{COP}_j)/\eta_{\mathrm{pipe}}$ of source heat and $W_j=1/\mathrm{COP}_j$ of
+$`S_j=(1-1/\mathrm{COP}_j)/\eta_{\mathrm{pipe}}`$ of source heat and $`W_j=1/\mathrm{COP}_j`$ of
 electricity; supply is unavailable below a COP of 2.
 
 ## 4. Hourly dispatch
