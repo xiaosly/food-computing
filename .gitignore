@@ -1,0 +1,14 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Nothing from the working repository belongs here: no data, no model outputs
+data/
+output/
+*.csv
+*.parquet
+*.tiff
