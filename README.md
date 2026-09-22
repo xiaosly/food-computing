@@ -75,12 +75,13 @@ budget: how each year's heat divides between cultivation, processing and unused 
 
 ![County co-presence](figures/colocation_02_county_copresence_today.png)
 
-**a**, The 2026 reference screen: 210 of 235 operational data-center campuses are in a county that
-already has both a food-crop greenhouse footprint and a food-processing footprint. Seen from the
-food side, only 106 of 1,244 such counties contain an operational campus. This is same-county
-co-presence from public data, not verified facility co-location, and connected heat delivery is
-unobserved. **b–e**, Under an earlier version of the expansion plan, where post-2026 heat is used in
-2027, 2035 and 2050, and how little of the growing resource that use represents.
+**a**, The 2026 reference screen: 1,244 counties have both a food-crop greenhouse footprint and a
+food-processing footprint (light blue), and 106 of them also hold an operational data-center campus
+(dark blue). Seen from the data centers, 210 of the 235 operational campuses are in such a county.
+This is same-county co-presence from public data, not verified facility co-location, and connected
+heat delivery is unobserved. **b–d**, Under an earlier version of the expansion plan, the post-2026
+heat used in each 25 km source cell in 2027, 2035 and 2050. **e**, Used against available heat over
+the period: a few tenths of one percent of the growing resource.
 
 #### One source, two food uses, on real land
 
@@ -173,9 +174,10 @@ imports retained.
 Tomato crop simulations in four climates. **a**, Greenhouse air temperature through a week-long
 interruption: with heat kept, every climate stays above 16.5 °C; with heat and lighting both lost,
 temperatures fall below freezing for 150 of the 672 event hours, to −13.9 °C in Minnesota. **b**,
-Harvest retained after 24, 72 and 168 hours. Temperature recovers within hours of service returning,
-but the harvest deficit persists. The sub-freezing cases lie outside the crop model's validated
-range, so their harvest contrasts are qualitative.
+Cumulative harvest against the uninterrupted control over the 75-day cycle: the deficit opens after
+the interruption and never closes, reaching 2.3 kg per m² in Minnesota with heat lost and 0.4 kg per
+m² with heat kept. **c**, Harvest retained after 24, 72 and 168 hours. The sub-freezing cases lie
+outside the crop model's validated range, so their harvest contrasts are qualitative.
 
 #### Duration, climate and timing: the full matrix
 
@@ -197,9 +199,9 @@ alone recovers most of the loss.
 merged event dataset: about 1.8% of county outage streaks reach 24 hours, 0.3% reach 72 hours and
 0.07% reach a week. These place the tested durations in the observed distribution; they are county
 events, not the failure probability of any facility. **b**, Under an earlier version of the plan,
-the modelled crop loss avoided by a backed heat link grows with the food rollout and with stress
-duration. **c**, Backing only the data center's IT load gives the crop nothing; the heat link must
-be backed too. **d**, The benefit survives when both sides are given equal continuity. Conditional
+the crop loss avoided by a backed heat link grows with the food rollout and with the stress length.
+**c**, Backing only the data center's IT load gives the crop nothing; the heat link itself must be
+backed. **d**, The benefit survives when both sides are given equal continuity. Conditional
 per-cycle quantities, not annual expected losses.
 
 ## An open question
