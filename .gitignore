@@ -12,3 +12,6 @@ output/
 *.csv
 *.parquet
 *.tiff
+
+# local restyle scripts, not published
+_restyle/
